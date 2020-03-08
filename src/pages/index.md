@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Heading title
-image: /img/home-jumbotron.jpg
+image: /img/image.webp
 heading: Great coffee with a conscience
 subheading: sub heading title
 mainpitch:
