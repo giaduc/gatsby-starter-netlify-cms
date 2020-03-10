@@ -1,10 +1,19 @@
 module.exports = {
 	siteMetadata: {
+		siteUrl: "https://www.deptoon.shop",
 		title: "deptoong.shop - giày dép nam",
 		description:
 			"giày da nam, dép nam một quai, dép nam quai ngang, giày da công sở."
 	},
 	plugins: [
+		{
+			resolve: "gatsby-plugin-robots-txt",
+			options: {
+				host: "https://www.deptoon.shop",
+				sitemap: "https://www.deptoon.shop/sitemap.xml",
+				policy: [{ userAgent: "*", allow: "/" }]
+			}
+		},
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-sass",
 		{
